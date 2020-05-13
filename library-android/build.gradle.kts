@@ -16,9 +16,6 @@
  *
  */
 
-group = "io.hkhc"
-version = "0.1"
-
 plugins {
     id("com.android.library")
     id("kotlin-android")
@@ -28,8 +25,8 @@ plugins {
     // so that libraryVariants is configured before simplePublisher
     id("io.hkhc.simplepublisher")
     id("digital.wup.android-maven-publish") version "3.6.2"
-    id("org.jlleitschuh.gradle.ktlint") 
-    id("io.gitlab.arturbosch.detekt") 
+    id("org.jlleitschuh.gradle.ktlint")
+    id("io.gitlab.arturbosch.detekt")
     // for build script debugging
     id("com.dorongold.task-tree")
 }
