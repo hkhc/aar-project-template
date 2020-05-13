@@ -1,0 +1,24 @@
+# includes/excludes:
+# assumed we have 3 files: a.kt, b.kt, c.kt
+#
+# if only "includes" is provided, only "includes" matched files are included
+#    includes: "a.kt"
+# only match a.kt
+#    includes: "a.kt,b.kt"
+# only match a.kt and b.kt
+#
+# if only "excludes" is provided, all files are included except those match "includes"
+#    excludes: "a.kt"
+# only match b.kt, c.kt
+#
+# if a file matches in both "includes" and "excludes", it is included
+#    includes: "a.kt"
+#    excludes: "a.kt"
+# match all a.kt, b.kt, c.kt
+
+style:
+  MaxLineLength:
+    active: true
+    excludeCommentStatements: true
+# cannot specify ruleset name without rules under it.
+# complexity:

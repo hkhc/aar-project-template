@@ -1,0 +1,17 @@
+group: <my-group>
+artifactId: <artifactId>
+version: 0.1
+description: my library description
+
+licenses:
+  - name: Apache-2.0
+    dist: repo
+
+developers:
+  - id: hkhc
+    name: <my-name>
+    email: <my-email>
+
+scm:
+  repoType: github.com
+  repoName: <repo-name>
