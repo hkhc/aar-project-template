@@ -1,7 +1,7 @@
 <component name="CopyrightManager">
-  <settings default="ASL Herman Cheung">
+  <settings default="ASL MyName">
     <module2copyright>
-      <element module="All" copyright="ASL Herman Cheung" />
+      <element module="All" copyright="ASL MyName" />
     </module2copyright>
   </settings>
 </component>
